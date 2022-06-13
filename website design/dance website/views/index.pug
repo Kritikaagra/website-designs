@@ -1,0 +1,67 @@
+//- index.pug
+doctype html
+html
+  head
+    title Dance academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+      ul
+        div#logo
+          img(src="/static/logo.png")
+          | DA
+        li #[a(href="/") HOME ]
+        li #[a(href="/") ABOUT ]
+        li #[a(href="/") SERVICES ]
+        li #[a(href="/") CLASS INFO]
+        li #[a(href="/contact") CONTACT US]
+
+  section#introSection 
+    div Welcome to our DANCE ACADEMY 
+    div.small Eat Sleep Dance Repeat
+
+  section#missionsection 
+    h2 Our MISSION
+    div.card
+      h3 Dance perfection
+      div.card-box 
+        div.card-img
+          img(src="/static/img3.png")
+
+        div.card-content
+          p this is the best dance academy in the world Lorem ipsum dolor sit amet consectetur.
+
+    div.card
+      h3 Dance the way you like
+      div.card-box 
+        div.card-img
+          img(src="/static/img1.png")
+
+        div.card-content
+          p this is the best dance academy in the world Lorem ipsum, dolor sit amet consectetur adipisicing.
+
+    div.card
+      h3 Expert teaching
+      div.card-box 
+        div.card-img
+          img(src="/static/img1.png")
+
+        div.card-content
+          p this is the best dance academy in the world Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+  section#sponsorsSection 
+    h2 Our Sponsers 
+    div#sponsers
+      img(src="/static/sponser1.webp", alt="Error in loading", class='spimage')
+      img(src="/static/sponser1.webp", alt="Error in loading", class='spimage')
+      img(src="/static/sponser2.webp", alt="Error in loading", class='spimage')
+      img(src="/static/sponser3.webp", alt="Error in loading", class='spimage')
+      img(src="/static/sponser3.webp", alt="Error in loading", class='spimage')
+
+  footer#footer 
+    | Copyright 2021 OurdanceAcademy.com | All rights are reserved
+
+
+    script
+      include ../static/index.js

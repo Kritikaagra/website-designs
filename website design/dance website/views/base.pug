@@ -1,0 +1,21 @@
+doctype html
+html 
+    head 
+        title DAnce academy
+        block scripts
+        block style
+    body
+        nav#navbar
+            ul
+                div#logo
+                    img(src="/static/logo.png")
+                    | DA
+                li #[a(href="/") HOME ]
+                li #[a(href="/") ABOUT ]
+                li #[a(href="/") SERVICES ]
+                li #[a(href="/") CLASS INFO]
+                li #[a(href="/contact") CONTACT US]
+   
+        block content 
+        footer#footer 
+            | Copyright 2021 OurdanceAcademy.com | All rights are reserved  
